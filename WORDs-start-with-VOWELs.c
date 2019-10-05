@@ -3,10 +3,11 @@
 struct v
 {
 char ch[9000];
-};
-int countVword(char ch[9000])
+}; //This structure contains an array "ch" which stores the paragraph entered by the user.
+
+int countVword(char ch[9000]) //This function is used to count the number of words starting with vowels.
 {
-	int i,nov=0;
+	int i,nov=0; //Here variable "nov" is the number of words starting with vowels and variable "i" is a counter.
 	for(i=0; ch[i]!='\0' ; i++)
 	{	if(i==0)
 		{
